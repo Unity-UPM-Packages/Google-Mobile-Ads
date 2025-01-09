@@ -1,21 +1,32 @@
 {
   "name": "com.google.ads.mobile",
-  "displayName": "com.google.ads.mobile",
-  "description": "com.google.ads.mobile description goes here.",
+  "displayName": "Google Mobile Ads",
+  "description": "Google Mobile Ads description goes here.",
   "keywords": [],
-  "version": "1.0.0",
+  "version": "9.3.0",
   "unity": "2022.3",
-  "documentationUrl": "https://github.com/Unity-UPM-Packages/com.google.ads.mobile#documentation",
-  "changelogUrl": "https://github.com/Unity-UPM-Packages/com.google.ads.mobile/releases",
+  "documentationUrl": "https://github.com/Unity-UPM-Packages/Google-Mobile-Ads#documentation",
+  "changelogUrl": "https://github.com/Unity-UPM-Packages/Google-Mobile-Ads/releases",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "repository": "https://github.com/Unity-UPM-Packages/com.google.ads.mobile.git",
-    "url": "https://github.com/Unity-UPM-Packages/com.google.ads.mobile.git"
+    "repository": "https://github.com/Unity-UPM-Packages/Google-Mobile-Ads.git",
+    "url": "https://github.com/Unity-UPM-Packages/Google-Mobile-Ads.git"
   },
   "author": {
     "name": "Unity-UPM-Packages",
     "url": "https://github.com/Unity-UPM-Packages"
   },
-  "dependencies": {}
+  "dependencies": {
+    "com.google.external-dependency-manager": "1.2.183"
+  },
+  "scopedRegistries": [
+    {
+      "name": "TripSoft",
+      "url": "https://verdaccio.tripdev.io/",
+      "scopes": [
+        "com.google"
+      ]
+    }
+  ]
 }
