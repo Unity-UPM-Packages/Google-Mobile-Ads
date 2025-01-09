@@ -1,0 +1,16 @@
+{
+    "name": "com.google.ads.mobile.Demo",
+    "rootNamespace": "com.google.ads.mobile.Demo",
+    "references": [
+        "com.google.ads.mobile"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
